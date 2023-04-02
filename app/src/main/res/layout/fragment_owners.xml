@@ -4,6 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!-- TODO: Add UI elements for LandlordsFragment -->
+    <!-- TODO: Add UI elements for OwnersFragment -->
 
 </LinearLayout>
