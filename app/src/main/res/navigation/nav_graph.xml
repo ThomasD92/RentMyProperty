@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.rentmyproperty.ui.fragments.MainFragment"
+        android:label="Main Fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_tenantsFragment"
+            app:destination="@id/tenantsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_landlordsFragment"
+            app:destination="@id/landlordsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tenantsFragment"
+        android:name="com.example.rentmyproperty.ui.fragments.TenantsFragment"
+        android:label="Tenants Fragment" />
+
+    <fragment
+        android:id="@+id/landlordsFragment"
+        android:name="com.example.rentmyproperty.ui.fragments.LandlordsFragment"
+        android:label="Landlords Fragment" />
+
+</navigation>
