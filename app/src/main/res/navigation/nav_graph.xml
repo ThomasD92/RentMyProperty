@@ -12,7 +12,7 @@
             android:id="@+id/action_mainFragment_to_tenantsFragment"
             app:destination="@id/tenantsFragment" />
         <action
-            android:id="@+id/action_mainFragment_to_landlordsFragment"
+            android:id="@+id/action_mainFragment_to_OwnersFragment"
             app:destination="@id/OwnersFragment" />
     </fragment>
 

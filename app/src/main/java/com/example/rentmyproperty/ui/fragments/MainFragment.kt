@@ -25,7 +25,7 @@ class MainFragment : Fragment() {
 
         val btnLandlords = view.findViewById<Button>(R.id.btnLandlords)
         btnLandlords.setOnClickListener {
-            findNavController().navigate(R.id.action_mainFragment_to_landlordsFragment)
+            findNavController().navigate(R.id.action_mainFragment_to_OwnersFragment)
         }
 
         return view

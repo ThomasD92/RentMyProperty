@@ -1,4 +1,9 @@
 package com.example.rentmyproperty.models
 
-class PropertyType {
+enum class PropertyType {
+
+    HOUSE,
+    APARTMENT,
+    ROOM
+
 }

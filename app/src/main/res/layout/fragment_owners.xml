@@ -5,5 +5,7 @@
     android:orientation="vertical">
 
     <!-- TODO: Add UI elements for OwnersFragment -->
+    <include
+        layout="@layout/custom_toolbar"/>
 
 </LinearLayout>
