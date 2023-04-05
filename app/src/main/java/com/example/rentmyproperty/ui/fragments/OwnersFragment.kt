@@ -16,7 +16,7 @@ class OwnersFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_owners, container, false)
 
-        // TODO: Add logic for OwnersFragment
+
 
         return view
     }
